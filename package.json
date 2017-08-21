@@ -3,15 +3,9 @@
   "version": "0.6.7",
   "description": "react-native支付宝，微信支付",
   "main": "index.js",
-  "dependencies": {
-    "babel-jest": "^19.0.0",
-    "jest": "^19.0.2",
-    "babel-preset-react-native": "^1.9.1",
-    "react-native": "^0.42.0",
-    "react-test-renderer": "^15.4.2",
-    "react": "^15.4.2"
+  "peerDependencies": {
+    "react-native": ">=0.40"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
